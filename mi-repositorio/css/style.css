@@ -1,0 +1,301 @@
+/*Estilos de Texto*/ 
+h1{
+    color: black;
+    font-size: 35px; 
+    font-style: normal; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-weight: bold;
+}
+
+h2{
+    color: black; 
+    font-size: 30px; 
+    font-style: normal; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3{ 
+    color: black; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    color:rgb(97, 4, 97); 
+    font-size: 15px; 
+    font-style: normal; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+/*Lista*/
+ul{list-style-type: none;}
+
+body{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+footer{
+    content:;
+}
+
+/*Sections*/
+#nav a {
+    color:rgb(97, 4, 97); 
+    font: 40px; 
+    font-style: normal; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-weight: bolder;
+    margin: 2px solid b;
+
+}
+
+#formulario{
+    color: black; 
+    font-size: 20px; 
+    font-style: normal; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+
+}
+
+#instagram{ 
+    color:rgb(97, 4, 97); 
+    font-size: 20px; 
+    font-style: normal; 
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+/*Clases*/
+.header_container{
+    text-align: center;
+}
+
+.img-logo{
+    width: 20%;
+    height: 20%;
+}
+
+.img-productos{
+    width: 25%;
+    height: 25%;
+
+}
+.img-pack{
+    width: 25%;
+    height: 25%;
+
+}
+
+.img-taller{
+    width: 25%;
+    height: 25%;
+
+}
+
+.img-cupcakes{
+    width: 30%;
+    height: 70%;
+    display: flex; justify-self: center;
+}
+
+.img-mooncakes{
+    width: 30%;
+    height: 70%;
+}
+
+.img-canela{
+    width: 30%;
+    height: 70%;
+}
+
+.img-tartas{
+    width: 30%;
+    height: 70%;
+}
+
+.img-galletas{
+    width: 30%;
+    height: 70%;
+}
+.img-scones{
+    width: 30%;
+    height: 70%;
+    display: flex; justify-content: center;
+}
+
+
+.barra-navegación{
+    display: flex; align-content: center;
+    margin: 0rem;
+    border: 4px solid #9129CE;
+    padding: 0,5rem 0,5rem;
+    
+
+}
+
+.medios-de-pago{
+    width: 35%;
+    height: 30%;
+}
+
+.mapa{
+    width: 10%;
+    height: 10%
+}
+
+
+/*CLASES DE PRODUCTOS*/
+.productos-1{
+    display: flex;
+    justify-content: center;
+
+}
+
+..card1{
+    flex-direction: column;
+    position: relative;
+;
+    
+}
+..card2{
+    flex-direction: column;
+}
+.card3{
+    flex-direction: column;
+}
+.productos-2{
+    display: flex;
+    justify-content: center;
+}
+.card4{
+    flex-direction: column;
+}
+.card5{
+    flex-direction: column;
+}
+.card6{
+    flex-direction: column;
+}
+/*imágenes*/
+.cupcake{
+    width: 200px;
+    height: 210px;
+}
+.mooncake{
+    width: 200px;
+    height: 210px;
+}
+.roll{
+    width: 200px;
+    height: 210px;
+}
+.tartaroja{
+    width: 200px;
+    height: 210px;
+}
+.galletas{
+    width: 200px;
+    height: 210px;
+}
+.scones{
+    width: 200px;
+    height: 210px;
+}
+.img-productos{
+    width: 100%;
+    height: 100%;
+}
+
+/*FLEXBOX*/
+.main{
+    display: flexbox;
+    padding: 1fr;
+    padding-left: 1fr;
+    justify-content: center;
+}
+.footer-1{
+    display: flex;
+    justify-content: center;
+}
+.pago{
+    flex-direction: column;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+.envio{
+    flex-direction: column;
+    position: relative;
+    top: 10px;
+    right: 160px;
+}
+.redes{
+    flex-direction: column;
+    position: relative;
+    top: 10px;
+    right: 70px;
+}
+
+.ubicabion{
+    flex-direction: column;
+    position: relative;
+    top: 10px;   
+    right: 150px;
+}
+
+.footer-2{
+    display: flex;
+    justify-content: center;
+}
+.pago1{
+    flex-direction: column;
+    position: relative;
+    top: 10px;
+    left:50px;
+}
+.envio1{
+    flex-direction: column;
+    position: relative;
+    top: 10px;
+    right: 165px;
+}
+.redes1{
+    flex-direction: column;
+    position: relative;
+    top: 10px;
+    right: 100px;
+}
+
+.ubicabion1{
+    flex-direction: column;
+    position: relative;
+    top: 30px;   
+    right: 30px;
+}
+}
+
+
+
+
+/*Colores de Fondo*/
+header{ 
+    background-color: rgb(191, 142, 236);
+
+}
+
+
+footer{ 
+    background-color: rgb(191, 142, 236);
+
+        
+}
+/*Bootstrap*/
+.carousel-item{
+    height: 550px;
+    width: 150px;
+}
