@@ -33,13 +33,11 @@ p{
 /*Lista*/
 ul{list-style-type: none;}
 
-body{
-    padding-left: 5%;
-    padding-right: 5%;
-}
-
-footer{
-    content:;
+.container-body{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    justify-content: center;
 }
 
 /*Sections*/
@@ -73,6 +71,7 @@ footer{
 /*Clases*/
 .header_container{
     text-align: center;
+    justify-content: center;
 }
 
 .img-logo{
@@ -134,13 +133,11 @@ footer{
     margin: 0rem;
     border: 4px solid #9129CE;
     padding: 0,5rem 0,5rem;
-    
-
 }
 
 .medios-de-pago{
-    width: 35%;
-    height: 30%;
+    width: 140px;
+    height: 70px;
 }
 
 .mapa{
@@ -155,31 +152,35 @@ footer{
     justify-content: center;
 
 }
-
-..card1{
-    flex-direction: column;
-    position: relative;
+.card-img-top{
+    height: 500px;
+    width: 400px;
+   
+    
+}
+.card1{
+    padding: 15px
 ;
     
 }
-..card2{
-    flex-direction: column;
+.card2{
+    padding: 15px;
 }
 .card3{
-    flex-direction: column;
+    padding: 15px;
 }
 .productos-2{
     display: flex;
     justify-content: center;
 }
 .card4{
-    flex-direction: column;
+    padding: 15px;
 }
 .card5{
-    flex-direction: column;
+    padding: 15px;
 }
 .card6{
-    flex-direction: column;
+    padding: 15px;
 }
 /*imágenes*/
 .cupcake{
@@ -211,76 +212,6 @@ footer{
     height: 100%;
 }
 
-/*FLEXBOX*/
-.main{
-    display: flexbox;
-    padding: 1fr;
-    padding-left: 1fr;
-    justify-content: center;
-}
-.footer-1{
-    display: flex;
-    justify-content: center;
-}
-.pago{
-    flex-direction: column;
-    position: relative;
-    top: 10px;
-    left: 30px;
-}
-.envio{
-    flex-direction: column;
-    position: relative;
-    top: 10px;
-    right: 160px;
-}
-.redes{
-    flex-direction: column;
-    position: relative;
-    top: 10px;
-    right: 70px;
-}
-
-.ubicabion{
-    flex-direction: column;
-    position: relative;
-    top: 10px;   
-    right: 150px;
-}
-
-.footer-2{
-    display: flex;
-    justify-content: center;
-}
-.pago1{
-    flex-direction: column;
-    position: relative;
-    top: 10px;
-    left:50px;
-}
-.envio1{
-    flex-direction: column;
-    position: relative;
-    top: 10px;
-    right: 165px;
-}
-.redes1{
-    flex-direction: column;
-    position: relative;
-    top: 10px;
-    right: 100px;
-}
-
-.ubicabion1{
-    flex-direction: column;
-    position: relative;
-    top: 30px;   
-    right: 30px;
-}
-}
-
-
-
 
 /*Colores de Fondo*/
 header{ 
@@ -298,4 +229,24 @@ footer{
 .carousel-item{
     height: 550px;
     width: 150px;
+}
+
+/*flexbox*/
+.main{
+    padding-left: 30px;
+    padding-right: 30px;
+    
+}
+.footer-container{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.container-inicio{
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center ;
+
 }

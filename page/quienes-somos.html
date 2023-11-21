@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quienes Somos</title>
-    <link rel="stylesheet" href="../css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header class="header_container">
@@ -34,7 +34,7 @@
            </div>
        </nav>
    </header>
-    <h1><strong>Quienes Somos</strong></h1>
+    
     <img src="../images/banner.jpg" height="420px" width="100%">
     <p> 
         <ul>
@@ -70,24 +70,33 @@
     </p>
 
     <footer class="footer-container">
-      <section class="footer-2">
-          <div class="pago1"> <h3><strong>Medios de Pago</strong> </h3>
-              <img class="medios-de-pago" src="../images/medios-de-pago.jpg"  alt="medios-de-pago"> 
-          </div>
-          <div class="envio1"> <h3><strong>Métodos de Envío</strong></h3> 
-               <p>Entrega en el local</p>
-               <p>Envíos a tu casa a cargo del consumidor</p>
-          </div>
-          <div class="redes1"> <h3><strong>Redes Sociales</strong></h3>
-               <section id="instagram"><a href="https://www.instagram.com/lunath_reposteria/"> "Instagram" </a> </section>
-               <p>Mail: lunath000@gmail.com</p>
-               <p>Whatsapp: +5491158279929</p>
-          </div>
-          <div class="ubicacion1"> <h3><strong>Ubicación</strong></h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.479635919547!2d-58.566838860640274!3d-34.64258807305299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7e5a1ba2a5b%3A0x6fbde0f35837e81a!2sAlsina%2054%2C%20B1704EVB%20Ramos%20Mej%C3%ADa%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1699302168345!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>     
-      </section>
-  </footer>
+      <div class="row">
+        <div class="col">
+          <h3><strong>Medios de Pago</strong> </h3>
+          <img class="medios-de-pago" src="../images/medios-de-pago.jpg" alt="medios-de-pago">
+        </div>
+        <div class="col">
+          <h3><strong>Métodos de Envío</strong></h3>
+          <p>Entrega en el local</p>
+          <p>Envíos a tu casa a cargo del consumidor</p>
+        </div>
+        <div class="col">
+          <h3><strong>Redes Sociales</strong></h3>
+          <section id="instagram"><a href="https://www.instagram.com/lunath_reposteria/"> "Instagram" </a> </section>
+          <p>Mail: lunath000@gmail.com</p>
+          <p>Whatsapp: +5491158279929</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h3><strong>Ubicación</strong></h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.479635919547!2d-58.566838860640274!3d-34.64258807305299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7e5a1ba2a5b%3A0x6fbde0f35837e81a!2sAlsina%2054%2C%20B1704EVB%20Ramos%20Mej%C3%ADa%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1699302168345!5m2!1ses-419!2sar"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body> 
 </html>

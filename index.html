@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dulce Tentación</title>
-    <link rel="stylesheet" href="../mi_carpeta/css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="../mi_carpeta/css/style.css">
 </head>
 <body>
     <header class="header_container">
@@ -34,84 +34,101 @@
           </div>
       </nav>
     </header>
-       <main>
-        <section class="Inicio">
-          <div class="card-productos">
-           <img class="img-productos" src="./images/lemonpie.jpg" class="card-img-top" alt="Lemon Pie">
-           <div class="card-body">
-             <h2 class="card-title">Productos</h2>
-             <h3 class="card-text"> Deleitate con nuestros productos elaborados con materia prima de primera calidad.
-              Mimate y mimá a tus seres queridos. </h3>
-           </div>
+      <main>
+        <section class="container-inicio">
+               <div class="col-inicio">
+                 <div class="row">
+                    <div class="card">
+                      <img src="./images/lemonpie.jpg" class="card-img-top" alt="Productos">
+                      <div class="card-body">
+                        <h2 class="card-title">Productos</h2>
+                        <h3> Deleitate con nuestros productos elaborados con materia de primera calidad. Mimate y mimá a tus seres queridos</h3>
+                      </div>
+                    </div>
+                  </div>
 
-           <div class="card">
-            <img src="./images/catering.webp" class="card-img-top" alt="Packs">
-            <div class="card-body">
-              <h2 class="card-title">Packs</h>
-              <h3 class="card-text">Dulce Tentación te acompaña en todos los momentos y por eso te ofrecemos packs de 
-                servicios de catering. Perfectos para esa ocasión especial.</h3>
-            </div>
-          </div>
-          <div class="card">
-            <img src="./images/roll-de-canela-crudo.jpg" class="card-img-top" alt="Talleres y Cursos">
-            <div class="card-body">
-              <h2 class="card-title">Talleres y Cursos</h2>
-              <h3 class="card-text">¿Quieres convertirte en un pro de la repostería? Dulce Tentación te ofrece Cursos
-                anuales y cuatrimestrales para que puedas cumplir tu sueño. No esperes más, las 
-                inscripciones estan abiertas!!</h3>
-            </div>
-          </div>
-        </section>
+                  <div class="row">
+                    <div class="card">
+                       <img src="./images/catering.webp" class="card-img-top" alt="Packs">
+                       <div class="card-body">
+                       <h2 class="card-title">Packs</h2>
+                       <h3 class="card-text">Dulce Tentación te acompaña en todos los momentos y por eso te ofrecemos packs de 
+                        servicios de catering. Perfectos para esa ocasión especial.</h3>
+                       </div>
+                    </div>
+                   </div>
+                  <div class="row">
+                    <div class="card">
+                       <img src="./images/roll-de-canela-crudo.jpg" class="card-img-top" alt="Talleres y Cursos">
+                       <div class="card-body">
+                       <h2 class="card-title">Talleres y Cursos</h2>
+                       <h3 class="card-text">¿Quieres convertirte en un pro de la repostería? Dulce Tentación te ofrece Cursos
+                         anuales y cuatrimestrales para que puedas cumplir tu sueño. No esperes más, las 
+                        inscripciones estan abiertas!!</h3>
+                        </div>
+                    </div>
+                  </div>
+               </div>
 
-         
-       </main>
-    <h2><strong>Pongámonos en Contacto</strong> </h2>
-    <p>Completa el siguiente formulario para dejar su opinión sobre nuestros servicios o dejar consultas.</p>
-    <section id="formulario"
-      <form action="/assets/form.php" method="post">
-        <ul>
-          <li> 
-           <label for=>Nombre y Apellido:</label>
-           <input type="text" name="nombre-y-apellido" id="nombre-y-apellido">
-          </li>
+      
+                   <h2><strong>Pongámonos en Contacto</strong> </h2>
+                   <p>Completa el siguiente formulario para dejar su opinión sobre nuestros servicios o dejar consultas.</p>
+                   <section id="formulario">
+                   <form action="/assets/form.php" method="post">
+                    <ul>
+                      <li> 
+                        <label for="">Nombre y Apellido:</label>
+                        <input type="text" name="nombre-y-apellido" id="nombre-y-apellido">
+                     </li>
+                     <br>
+                     <li>
+                       <label for="">E-mail:</label>
+                       <input type="text" name="e-mail" id="e-mail">
+                     </li>
+                     <br>
+                     <li>
+                       <label for="">Comentarios:</label>
+                       <br>
+                       <input type="text" name="comentarios" id="comentarios" style="width: 400px; height:200px;">
+                     </li>
+                     <br>
+                     <li>
+                       <label for=""></label>
+                       <input type="submit" name="enviar" id="enviar">
+                     </li>
+                    </ul>
+                   </form>
+       </section>
+     </main>
 
-          <li>
-           <label for="">e-mail:</label>
-           <input type="text" name="e-mail" id="e-mail">
-          </li>
-    
-          <li>
-           <label for="">Comentarios:</label>
-           <br>
-           <input type="text" name="comentarios" id="comentarios" style="width: 400px; height:200px;">
-          </li>
-          <li>
-           <label for=""></label>
-           <input type="submit" name="enviar" id="enviar">
-          </li>
-        </ul>
-      </form>
-    </section>
-
-  <footer class="footer-container">
-      <section class="footer-1">
-          <div class="pago"> <h3><strong>Medios de Pago</strong> </h3>
-              <img class="medios-de-pago" src="../mi_carpeta/images/medios-de-pago.jpg"  alt="medios-de-pago"> 
-          </div>
-          <div class="envio"> <h3><strong>Métodos de Envío</strong></h3> 
-               <p>Entrega en el local</p>
-               <p>Envíos a tu casa a cargo del consumidor</p>
-          </div>
-          <div class="redes"> <h3><strong>Redes Sociales</strong></h3>
-               <section id="instagram"><a href="https://www.instagram.com/lunath_reposteria/"> "Instagram" </a> </section>
-               <p>Mail: lunath000@gmail.com</p>
-               <p>Whatsapp: +5491158279929</p>
-          </div>
-          <div class="ubicacion"> <h3><strong>Ubicación</strong></h3>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.479635919547!2d-58.566838860640274!3d-34.64258807305299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7e5a1ba2a5b%3A0x6fbde0f35837e81a!2sAlsina%2054%2C%20B1704EVB%20Ramos%20Mej%C3%ADa%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1699302168345!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-          </div>     
-      </section>
-  </footer>
+    <footer class="footer-container">
+      <div class="row">
+        <div class="col">
+          <h3><strong>Medios de Pago</strong> </h3>
+          <img class="medios-de-pago" src="./images/medios-de-pago.jpg" alt="medios-de-pago">
+        </div>
+        <div class="col">
+          <h3><strong>Métodos de Envío</strong></h3>
+          <p>Entrega en el local</p>
+          <p>Envíos a tu casa a cargo del consumidor</p>
+        </div>
+        <div class="col">
+          <h3><strong>Redes Sociales</strong></h3>
+          <section id="instagram"><a href="https://www.instagram.com/lunath_reposteria/"> "Instagram" </a> </section>
+          <p>Mail: lunath000@gmail.com</p>
+          <p>Whatsapp: +5491158279929</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h3><strong>Ubicación</strong></h3>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.479635919547!2d-58.566838860640274!3d-34.64258807305299!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7e5a1ba2a5b%3A0x6fbde0f35837e81a!2sAlsina%2054%2C%20B1704EVB%20Ramos%20Mej%C3%ADa%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1699302168345!5m2!1ses-419!2sar"
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
